@@ -1,75 +1,112 @@
-/* .mtc__code {
-  background: #e2e1e1;
-  border: 1px solid #ddd;
-  border-left: 3px solid #f36d33;
-  color: rgb(0, 0, 0);
-  page-break-inside: avoid;
-  font-family: monospace;
-  font-size: 15px;
-  line-height: 1.6;
-  margin-bottom: 1.6em;
-  max-width: 100%;
-  overflow: auto;
-  padding: 1em 1.5em;
-  display: block;
-  word-wrap: break-word;
+body {
+  font-family: "Mukta", sans-serif;
 }
 
-.mtc__main_header {
-  background: #a5ebff;
-  position: fixed;
-}
-#left,
-#right {
-  top: 0;
-  bottom: 0;
-  width: 15px;
-}
-#left {
-  left: 0;
-}
-#right {
-  right: 0;
+h1 {
+  font-size: 40px;
 }
 
-#top,
-#bottom {
-  left: 0;
-  right: 0;
-  height: 15px;
-}
-#top {
-  top: 0;
-}
-#bottom {
-  bottom: 0;
-} */
-
-.code__js__variable {
-  padding: 2px 4px;
-  background: #f5f2f0;
-  border-radius: 2px;
+h2 {
+  font-size: 20px;
 }
 
-element.style {
+p {
+  font-size: 18px;
 }
-.frontpage-banner__inner {
-  max-width: 1000px;
-  width: 100%;
-  margin: 0 auto;
-  padding-top: 50px;
-  box-sizing: border-box;
-}
-user agent stylesheet div {
-  display: block;
-}
+
+/* FRONTPAGE */
+
+/* Frontpage starts */
+
+/* #373738 */
+
 .frontpage-banner {
   position: relative;
   color: #fff;
   background-color: #fff;
-  background: linear-gradient(0deg, #414141 0, #373636);
+  background: linear-gradient(0deg, #373738 0, rgb(29, 30, 33));
   background-size: contain;
   background-repeat: no-repeat;
   text-align: center;
-  padding-top: 80px;
+  padding-top: 40px;
+  padding-bottom: 20px;
 }
+
+.frontpage-banner__inner {
+  max-width: 1000px;
+  width: 100%;
+  margin: 0 auto;
+  padding-top: 10px;
+  box-sizing: border-box;
+}
+
+/* .frontpage-banner__subtitle. {
+  font-weight: 700;
+  line-height: 1.4;
+  color: #fff;
+  margin-bottom: 10000px;
+} */
+
+.frontpage-search {
+  border-radius: 3px;
+  background-color: #373636;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  padding: 25px 45px;
+  max-width: 990px;
+  width: 100%;
+  box-sizing: border-box;
+  margin-bottom: 24px;
+  margin-top: 20px;
+}
+.frontpage-search__input {
+  display: block;
+  border: none;
+  border-radius: 4px;
+  height: 44px;
+  width: 100%;
+  padding: 0 15px;
+  font-size: 16px;
+  -webkit-appearance: none;
+}
+
+.frontpage-search-btn {
+  border: none;
+  background-color: #fd9460;
+  border-radius: 3px;
+  padding: 0;
+  min-width: 140px;
+  height: 44px;
+  margin-left: 20px;
+  text-transform: uppercase;
+  color: #fff;
+  font-size: 16px;
+  text-align: center;
+}
+
+/* 
+ 
+
+.frontpage-banner {
+  element.style {
+  }
+  .frontpage-banner__inner {
+    max-width: 1000px;
+    width: 100%;
+    margin: 0 auto;
+    padding-top: 50px;
+    box-sizing: border-box;
+  }
+}
+
+.frontpage-search {
+
+}
+
+
+
+
+*/
+
+/* Frontpage Ends */
